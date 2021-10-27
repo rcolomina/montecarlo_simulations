@@ -6,31 +6,30 @@ The kernel of this project is a random number generator (RNG) from its seed. A s
 
 # Random Number Generator
 
-In p
-
+In order to apply MC, a good random number generator is requried to create samples.
 
 # Monte Carlo Method (MC)
 
-The mathematical foundations of MC come from the law of big numbers. MC calculates expectations on random variables [TBC] 
+The mathematical foundations of MC are in the law of big numbers. 
+
+MC calculates expected values of random variables.  
 
 # Monte Carlo Application
 
-This section shows basic MC applications. [TBC: Describe nature of the examples]
 
 ## Geometric Area Calculations Inside of a Square
 
-Imagine we have a square with side L. We are going to draw from each square's vertex using a compass the quarter of circumference of radius L. These four quarters of circumferences intersects into an area A that we pretend to calculate using Monte Carlo method. 
+Imagine we have a square surface of side L. We draw from each square's vertex, with a compass a quarter of circumference of radius L. These four quarters of circumferences intersects into a central area A, which will be calculated with MC.
 
-From geometry can be calculated the exact solution using simple geometric methods. It turns out that A is (1/6) * L^2 * ( 6 * SQRT(3) - 2 PI + 6 ).
+Using geometry principles, the exact solution can be found 
+`A = (1/6) * L^2 * ( 6 * SQRT(3) - 2 PI + 6 )`
 
 ## Geometric Brownian Motion
-
+TBC
 ## Neural Network Parameter Selection
-
-
-
+TBC
 # Implementing Monte Carlo in Python
-
+TBC
 
 
 
