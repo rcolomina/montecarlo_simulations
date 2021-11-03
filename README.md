@@ -14,19 +14,17 @@ The mathematical foundations of MC are in the law of big numbers.
 
 MC calculates expected values of random variables.  
 
-## Geometric Area Calculations Inside of a Square
+## Geometric Area Calculations
 
-Imagine we have a square surface of side L. We draw from each square's vertex, with a compass a quarter of circumference of radius L. These four quarters of circumferences intersects into a central area A, which will be calculated with MC.
+As example, here is show how to calculate the area of a surface. Starting with a square of side L, we draw from each square's vertex, quarter of circumference having radius L. The four quarters of circumferences intersects into a central area A. This will be calculated with MC.
 
-To check MC, this works as testing case, because using geometry principles, the exact solution can be found:
-
-`A = (1/6) * L^2 * ( 6 * SQRT(3) - 2 PI + 6 )`
+The exact solution is `A = (1/6) * L^2 * ( 6 * SQRT(3) - 2 PI + 6 )` so it is used as MC testing
 
 ## Geometric Brownian Motion
 TBC
 ## Neural Network Parameter Selection
 TBC
-# Implementing Monte Carlo in Python
+## Convergence Analysis
 TBC
 
 
