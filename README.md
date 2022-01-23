@@ -1,8 +1,10 @@
 # Monte Carlo Simulations 
 
-This project aim is to build a schema for Monte Carlo Simulation Schema with examples. Actually this project was created from the requirement to check a particular geometric problem.
+This project aim is to create templates to apply MC to any type of problem. 
 
-The kernel of this project is a random number generator (RNG) from its seed. A seed is a number parameter for the RNG allowing to produce repeatable experiments. It is a tradition to chose 42 to wink the film "The Hitchhiker's guide to the Galaxy". 
+This project contains simple examples applied to calculate areas on on geometric problems.
+
+The kernel of this project is a random number generator (RNG) that is inicialised with a constant seed, in order to make it testeable i.e. fix number given to the RNG allowing to produce repeatable experiments. The tradition is to use 42 to wink the film "The Hitchhiker's guide to the Galaxy". 
 
 ## Random Number Generator
 
